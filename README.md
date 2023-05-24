@@ -29,4 +29,30 @@ El proyecto está hecho con:<br><br>
 * Router: npm i react-router-dom@v6 [Documentación](https://reactrouter.com/en/main) <br><br> 
 * Icons: npm i react-icons --save [Documentación](https://react-icons.github.io/react-icons/) <br><br> 
 
+---
 
+## Figma
+
+<p align="center"> 
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/figma1.png" width="550" height="400">
+</p><br><br>
+
+<p align="center"> 
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/figma2.png" width="550" height="400">
+</p><br><br>
+
+<p align="center"> 
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/figma3.png" width="550" height="400">
+</p><br><br>
+
+<p align="center"> 
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/figma4.png" width="550" height="400">
+</p><br><br>
+
+<p align="center"> 
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/figma5.png" width="550" height="400">
+</p><br><br>
+
+<p align="center"> 
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/figma6.png" width="550" height="400">
+</p><br><br>
