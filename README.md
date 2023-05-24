@@ -1,87 +1,32 @@
-# Getting Started with Create React App
+# Aplicación con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### Contexto del proyecto <br><br>
 
-In the project directory, you can run:
+La agencia de publicidad Ogilvy está probando a diferentes grupos de personas para seleccionar un grupo de trabajo que forme parte de su plantilla. Ogilvy presenta unos requisitos. La agencia quiere probar hasta dónde son capaces de llegar los grupos preseleccionados.
 
-### `npm start`
+La propuesta debe:<br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* DEBE hacer una aplicación con React en entorno node<br><br>
+* DEBE utilizar un librería de diseño<br><br>
+* DEBE de cargar datos de un JSON y que los pinte (Puede ser una JSON en local)<br><br>
+* DEBE: La app tienen que utilizar una API pública (Ejemplos: Google Maps, el horario o el tiempo, etc.)<br><br>
+* EXTRA: Utilizar un sistema de test (Ejemplo Jest, Cypress, etc.) para validar la funcionalidad básica<br><br>
+* EXTRA: Queremos evitar SPAM en los formularios, necesitamos una prueba de Turin para diferenciar que es una máquina y que no lo es. ¿Entrenaremos a una inteligencia artificial?<br><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Proyecto REACT
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El proyecto está hecho con:<br><br>
 
-### `npm run build`
+* REACT: npx create-react-app [Documentación](https://es.react.dev/learn) <br><br> 
+* Bootstrappe: https://github.com/facebook/create-react-app [Documentación](https://react-bootstrap.github.io/) <br><br> 
+* Axios: npm install axios [Documentación](https://axios-http.com/docs/intro) <br><br> 
+* Slick: npm install react-slick --save / npm install slick-carousel --save [Documentación](https://react-slick.neostack.com/docs/get-started/) <br><br> 
+* Hook Form: npm install react-hook-form [Documentación](https://react-hook-form.com/get-started) <br><br> 
+* Router: npm i react-router-dom@v6 [Documentación](https://reactrouter.com/en/main) <br><br> 
+* Icons: npm i react-icons --save [Documentación](https://react-icons.github.io/react-icons/) <br><br> 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-## Programas instalados para el correcto funcionamiento de las páginas
-
-### Sol
-npm install axios
-### Franci
-npm install react-slick --save
-npm install slick-carousel --save
-### Chiara
-npm install react-hook-form
-### Johan
-
-### Santi
-npm i react-router-dom@v6
-npm i react-icons --save
 
