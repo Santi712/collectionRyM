@@ -53,7 +53,7 @@ El proyecto está hecho con las siguientes librerías:<br><br>
 
 ## StakeHolders
 ¿A quién va dirigido?
-E A un público general de edad aaún por determinar, se definirá en  función de la  acogeida de la serie.
+ A un público general de edad aún por determinar, se definirá en  función de la  acogida de la serie.
 
 ---
 
