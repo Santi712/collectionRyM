@@ -8,7 +8,7 @@ Nuestro cliente Ogilvy nos ha pedido realizar un proyecto para una empresa en nu
 
 ## Proyecto REACT
 
-El proyecto está hecho con:<br><br>
+El proyecto está hecho con las siguientes librerías:<br><br>
 
 * REACT: npx create-react-app [Documentación](https://es.react.dev/learn) <br><br> 
 * Bootstrappe: https://github.com/facebook/create-react-app [Documentación](https://react-bootstrap.github.io/) <br><br> 
@@ -61,7 +61,19 @@ E A un público general de edad aaún por determinar, se definirá en  función 
 
 El análisis competitivo nos permite entender dónde nos encontramos como marca y cómo trabaja la competencia. Empezaremos identificando quiénes somos y quiénes son nuestros competidores. A continuación, señalaremos qué están haciendo bien y crearemos un mapa perceptual. En el mapa perceptual identificaremos un criterio y clasificaremos las características nombradas anteriormente.
 
+**Colnect** propociona un extenso catálogo de artículos coleccionables. El catálogo es una wiki creada por la contribución de los coleccionistas de Colnect. Se espera que sustituya a la mayoría (si no a todos) de los catálogos impresos, proporcionando una información más precisa y actualizada.
 
+<p align="center"> 
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/competidores2.png" width="550" height="400">
+</p><br><br>
+
+**Cardmarket** es una empresa a nivel internacional que se dedica a la venta y distribuición de cromos y otros objetos de merchandaising propios de disferentes marcas.
+
+<p align="center"> 
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/competidores1.png" width="550" height="400">
+</p><br><br>
+
+---
 
 ## Figma
 
