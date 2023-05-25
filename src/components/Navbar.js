@@ -26,6 +26,7 @@ const Navbar = () => {
                 <Link to='/'>Home</Link>
             </li>
             <li>
+<<<<<<< HEAD
                 <Link to='/weather'>Registro</Link>
             </li>
             <li>
@@ -36,6 +37,15 @@ const Navbar = () => {
             </li>
             <li>
                 <Link to='/contact'>Contacto</Link>
+=======
+                <Link to='/formulario'>Registro</Link>
+            </li>
+            <li>
+                <Link to='/login'>Login</Link>
+            </li>
+            <li>
+                <Link to='/merch'>Merch</Link>
+>>>>>>> 2491a7a (nuevo x2)
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>
