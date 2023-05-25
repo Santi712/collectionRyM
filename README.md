@@ -1,6 +1,8 @@
 # Aplicación con React
 
 ---
+### Cronograma de trabajo [Calendar](https://calendar.google.com/calendar/u/1?cid=ZWJhYjFkMzIyYjQ4MjE1OWY2YjgwZGRiY2UyZWNkMmZmNjMwZWQ5OTg2Y2NkYzg3NjA2NTM3ZTVjYjE2NTdhN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+
 ## Sobre la página
 
 Nuestro cliente Ogilvy nos ha pedido realizar un proyecto para una empresa en nuestro caso, nuestro cliente es la editorial Planeta. Planeta lanza al mercado la Serie Rick y Morty una serie  con un amplio target. Como productos adicionales asociados lanza un coleccionable de cromos y nos ha pedido que realicemos una App para su gestión con la funcionalidad asociada de  intercambio y control. 
