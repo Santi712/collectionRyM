@@ -55,6 +55,13 @@ El proyecto está hecho con:<br><br>
 ¿A quién va dirigido?
 E A un público general de edad aaún por determinar, se definirá en  función de la  acogeida de la serie.
 
+---
+
+## Análisis Competitivo
+
+El análisis competitivo nos permite entender dónde nos encontramos como marca y cómo trabaja la competencia. Empezaremos identificando quiénes somos y quiénes son nuestros competidores. A continuación, señalaremos qué están haciendo bien y crearemos un mapa perceptual. En el mapa perceptual identificaremos un criterio y clasificaremos las características nombradas anteriormente.
+
+
 
 ## Figma
 
