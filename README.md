@@ -23,11 +23,11 @@ El proyecto está hecho con las siguientes librerías:<br><br>
 ## Trello 
 
 <p align="center"> 
-  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/trello1.png" width="550" height="300">
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/trello1.png" width="500" height="300">
 </p><br><br>
 
 <p align="center"> 
-  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/trello2.png" width="550" height="300">
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/trello2.png" width="500" height="300">
 </p><br><br>
 
 ---
@@ -64,13 +64,13 @@ El análisis competitivo nos permite entender dónde nos encontramos como marca 
 **Colnect** propociona un extenso catálogo de artículos coleccionables. El catálogo es una wiki creada por la contribución de los coleccionistas de Colnect. Se espera que sustituya a la mayoría (si no a todos) de los catálogos impresos, proporcionando una información más precisa y actualizada.
 
 <p align="center"> 
-  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/competidores2.png" width="550" height="400">
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/competidores2.png" width="550" height="350">
 </p><br><br>
 
 **Cardmarket** es una empresa a nivel internacional que se dedica a la venta y distribuición de cromos y otros objetos de merchandaising propios de disferentes marcas.
 
 <p align="center"> 
-  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/competidores1.png" width="550" height="400">
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/competidores1.png" width="550" height="250">
 </p><br><br>
 
 ---
