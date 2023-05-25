@@ -1,22 +1,8 @@
-<<<<<<< HEAD
-import React from "react";
-=======
 import React, { useState } from "react";
->>>>>>> 2491a7a (nuevo x2)
 import { useForm } from "react-hook-form";
 import "./Form.css";
 
 const Form = () => {
-<<<<<<< HEAD
-  const {
-    register,
-    formState: { errors },
-    handleSubmit
-  } = useForm();
-
-  const onSubmit = (data) => {
-    console.log(data);
-=======
   const [formData, setFormData] = useState(null);
 
   const {
@@ -29,7 +15,6 @@ const Form = () => {
     const jsonData = JSON.stringify(data);
     setFormData(jsonData);
     localStorage.setItem("userData", jsonData); // Agrega esta línea para guardar el JSON en el localStorage
->>>>>>> 2491a7a (nuevo x2)
   };
 
   return (
@@ -38,11 +23,7 @@ const Form = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>Nombre</label>
-<<<<<<< HEAD
-          <br></br>
-=======
           <br />
->>>>>>> 2491a7a (nuevo x2)
           <input
             type="text"
             {...register("nombre", {
@@ -60,11 +41,7 @@ const Form = () => {
         </div>
         <div>
           <label>Edad</label>
-<<<<<<< HEAD
-          <br></br>
-=======
           <br />
->>>>>>> 2491a7a (nuevo x2)
           <input
             type="text"
             {...register("edad")}
@@ -73,19 +50,11 @@ const Form = () => {
         </div>
         <div>
           <label>Email</label>
-<<<<<<< HEAD
-          <br></br>
-          <input
-            type="text"
-            {...register("email", {
-              pattern: /[^\s@]+@[^\s@]+.[^\s@]+/gi
-=======
           <br />
           <input
             type="text"
             {...register("email", {
               pattern: /[^\s@]+@[^\s@]+\.[^\s@]+/gi
->>>>>>> 2491a7a (nuevo x2)
             })}
             placeholder="Ingresa tu email"
           />
@@ -95,11 +64,7 @@ const Form = () => {
         </div>
         <div>
           <label>Pais</label>
-<<<<<<< HEAD
-          <br></br>
-=======
           <br />
->>>>>>> 2491a7a (nuevo x2)
           <select {...register("pais")} placeholder="Selecciona tu país">
             <option value="es">España</option>
             <option value="it">Italia</option>
@@ -108,15 +73,12 @@ const Form = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
-<<<<<<< HEAD
-=======
       {formData && (
         <div>
           <h3>Datos guardados:</h3>
           <pre>{formData}</pre>
         </div>
       )}
->>>>>>> 2491a7a (nuevo x2)
     </div>
   );
 };
