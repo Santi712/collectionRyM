@@ -27,7 +27,7 @@ El proyecto está hecho con las siguientes librerías:<br><br>
 </p><br><br>
 
 <p align="center"> 
-  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/trello2.png" width="500" height="300">
+  <img src="https://github.com/Santi712/collectionRyM/blob/main/src/pic/trello2.png" width="500" height="350">
 </p><br><br>
 
 ---
