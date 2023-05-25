@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import "./Form.css";
 
 const Form = () => {
+  const [formData, setFormData] = useState(null);
+
   const {
     register,
-    formState: { errors },
-    handleSubmit
+    handleSubmit,
+    formState: { errors }
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
+    const jsonData = JSON.stringify(data);
+    setFormData(jsonData);
+    localStorage.setItem("userData", jsonData); // Agrega esta línea para guardar el JSON en el localStorage
   };
 
   return (
@@ -19,7 +23,7 @@ const Form = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>Nombre</label>
-          <br></br>
+          <br />
           <input
             type="text"
             {...register("nombre", {
@@ -37,7 +41,7 @@ const Form = () => {
         </div>
         <div>
           <label>Edad</label>
-          <br></br>
+          <br />
           <input
             type="text"
             {...register("edad")}
@@ -46,11 +50,11 @@ const Form = () => {
         </div>
         <div>
           <label>Email</label>
-          <br></br>
+          <br />
           <input
             type="text"
             {...register("email", {
-              pattern: /[^\s@]+@[^\s@]+.[^\s@]+/gi
+              pattern: /[^\s@]+@[^\s@]+\.[^\s@]+/gi
             })}
             placeholder="Ingresa tu email"
           />
@@ -60,7 +64,7 @@ const Form = () => {
         </div>
         <div>
           <label>Pais</label>
-          <br></br>
+          <br />
           <select {...register("pais")} placeholder="Selecciona tu país">
             <option value="es">España</option>
             <option value="it">Italia</option>
@@ -69,6 +73,12 @@ const Form = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
+      {formData && (
+        <div>
+          <h3>Datos guardados:</h3>
+          <pre>{formData}</pre>
+        </div>
+      )}
     </div>
   );
 };
