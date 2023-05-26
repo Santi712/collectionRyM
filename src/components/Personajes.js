@@ -38,8 +38,8 @@ const Personajes = () => {
         </div>
       ))}
       <div className="pagination">
-        <button onClick={handlePrev} disabled={currentPage === 1}>Anterior</button>
-        <button onClick={handleNext} disabled={currentPage === totalPages}>Siguiente</button>
+        <button className='ant' onClick={handlePrev} disabled={currentPage === 1}>Anterior</button>
+        <button className='sig' onClick={handleNext} disabled={currentPage === totalPages}>Siguiente</button>
       </div>
     </div>
   );

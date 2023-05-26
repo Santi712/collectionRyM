@@ -5,8 +5,6 @@
   
   html{
     box-sizing: border-box;
-    background-image: url("../pic/3.jpg");
-    background-size: cover;
   }
   
   .main-section{
@@ -14,9 +12,15 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    background-image: url("../pic/fondo5.png");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+
   }
   
   .carousel_content{
+    margin-top: 80px;
     padding: 20px;
     height: 600px;
     display: flex;
@@ -139,8 +143,8 @@
     padding: 4px;
     height: 80%;
     margin-bottom: 2px;
-    background-image: url(../pic/2.jpg);
-    background-size: 180%;
+    background-image: url(../pic/10.jpg);
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -150,8 +154,8 @@
     padding: 4px;
     height: 80%;
     margin-bottom: 2px;
-    background-image: url(../pic/4.jpg);
-    background-size: 165%;
+    background-image: url(../pic/carrucel3.svg);
+    background-size: 105%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -161,8 +165,8 @@
     padding: 4px;
     height: 80%;
     margin-bottom: 2px;
-    background-image: url(../pic/5.jpg);
-    background-size: 165%;
+    background-image: url(../pic/12.jpg);
+    background-size: 105%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -172,8 +176,8 @@
     padding: 4px;
     height: 80%;
     margin-bottom: 2px;
-    background-image: url(../pic/1.jpeg);
-    background-size: 190%;
+    background-image: url(../pic/11.jpg);
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -183,8 +187,8 @@
     padding: 4px;
     height: 80%;
     margin-bottom: 2px;
-    background-image: url(../pic/9.jpg);
-    background-size: 165%;
+    background-image: url(../pic/13.jpg);
+    background-size: 105%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -204,4 +208,63 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .options{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 100px;
+  }
+  .frase{
+    margin-bottom: 20px;
+    color: rgb(41, 152, 204);
+    text-transform:uppercase;
+    text-shadow: black 0 0 0 10px;
+  }
+  .option1{
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: brown;
+    font-size: 1.5em;
+  }
+  .option1 a{
+    color: #fff;
+  }
+
+  .option2{
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(165, 15, 15);
+    font-size: 1.5em;
+  }
+  .option2 a{
+    color: #fff;
+  }
+  .pildora{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  @media screen and (max-width:1240px) {
+    .main-section{
+      background-size: 140%;
+      background-position: right;
+    }
+  }
+  @media screen and (max-width:940px) {
+    .main-section{
+      background-size: 200%;
+      background-position: right;
+    }
+  }
+  @media screen and (max-width:780px) {
+    .main-section{
+      background-size: 270%;
+      background-position: right;
+    }
   }

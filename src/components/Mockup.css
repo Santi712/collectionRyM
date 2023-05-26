@@ -118,11 +118,14 @@
   
   .box p {
     text-align: center;
-    margin-top: 75%;
+    margin-top: 100%;
+    background-color: rgb(168, 207, 211);
+    border-radius: 10px;
   }
   
   .slick-slide div {
     margin: 0 1rem;
+    color: black;
   }
   
   .slick-next{
@@ -137,4 +140,16 @@
     color: black !important;
     font-size: 1rem !important;
     top: 2rem !important;
+  }
+  .slick-next:before {
+    color: black !important;
+  }
+  .slick-prev:before {
+    color: black !important;
+  }
+  
+  @media screen and (max-width:780px) {
+    .box p {
+      margin-top: 0;
+    }
   }

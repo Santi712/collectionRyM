@@ -6,28 +6,28 @@ function Footer() {
     <div>
         <footer>
             <div>
-                <h2>Sobre PG</h2>
+                <h2>Sobre RyM</h2>
                 <ul>
                     <li>Historia</li>
-                    <li><a href="">Protección de datos</a></li>
-                    <li><a href="">Cookies</a></li>
+                    <li>Protección de datos</li>
+                    <li>Cookies</li>
                 </ul>
             </div>
             <div>
                 <h2>Únete al grupo</h2>
                 <ul>
-                    <li>Aporta tu creatividad</li>
+                    <li>Somos los más frikis</li>
                 </ul>
             </div>
             <div>
-                <h2>¡Sígueme! :)</h2>
+                <h2>¡Síguenos! :)</h2>
                 <ul>
                     <li><a href="" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
-                    <li><a href="https://www.instagram.com/b.santiago12/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+                    <li><a href="https://instagram.com/b.santi12/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
                 </ul>
             </div>
             <div className="last">
-                <h2>¿Quieres subir una foto?<br /> ¡Déjanos tu contacto!</h2>
+                <h2>¡Se el primero en saber de los<br />nuevos cormos!</h2>
                 <form action="" method="get">
                     <input type="email" placeholder="Email" required id="emailField" />
                     <button id="buttonValidar" type="submit">Suscríbete</button>

@@ -1,28 +1,63 @@
-import React from "react";
-import Form from "./Form";
+import React, { useState } from "react";
+import { Link } from 'react-router-dom'
+import { useForm } from "react-hook-form";
+import "./Form.css";
 
-const Login = () => {
-  const storedData = localStorage.getItem("userData");
-  const storedUserData = JSON.parse(storedData);
+const Form = () => {
+  const [formData, setFormData] = useState(null);
 
-  const handleLogin = (data) => {
-    if (storedUserData && storedUserData.email === data.email && storedUserData.contraseña === data.contraseña) {
-      // Acceso concedido
-      // Realizar acciones correspondientes, como redireccionar o mostrar un mensaje de éxito.
-      console.log("Acceso concedido");
-    } else {
-      // Acceso denegado
-      // Realizar acciones correspondientes, como mostrar un mensaje de error.
-      console.log("Acceso denegado");
-    }
+  const {
+    register,
+    handleSubmit,
+    formState: { errors }
+  } = useForm();
+
+  const onSubmit = (data) => {
+    const jsonData = JSON.stringify(data);
+    setFormData(jsonData);
+    localStorage.setItem("userData", jsonData); 
   };
 
   return (
-    <div>
+    <div className="form-container">
       <h2>Inicio de sesión</h2>
-      <Form mode="login" onLogin={handleLogin} />
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <div>
+          <label>Email</label>
+          <br />
+          <input
+            type="text"
+            {...register("email", {
+              pattern: /[^\s@]+@[^\s@]+\.[^\s@]+/gi
+            })}
+            placeholder="Ingresa tu email"
+          />
+          {errors.email?.type === "pattern" && (
+            <p>El formato del email es incorrecto</p>
+          )}
+        </div>
+        <div>
+          <label>Contraseña</label>
+          <br></br>
+          <input
+            type="password"
+            {...register("contrasenia", {
+              required: true,
+              minLength: 6
+            })}
+            placeholder="Ingresa tu contraseña"
+          />
+          {errors.contrasenia?.type === "required" && (
+            <p>El campo es requerido</p>
+          )}
+          {errors.contrasenia?.type === "minLength" && (
+            <p>La contraseña debe tener al menos 6 caracteres</p>
+          )}
+        </div>
+        <button className="entrar"><Link to='/'>Entrar</Link></button>
+      </form>
     </div>
   );
 };
 
-export default Login;
+export default Form;

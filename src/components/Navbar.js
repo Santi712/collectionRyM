@@ -20,16 +20,10 @@ const Navbar = () => {
 
   return (
     <div className={color ? 'header header-bg' : 'header'}>
-        <h1>titulo</h1>
+        <Link to='/inicio'><h1 className='logo'>PLANETA</h1></Link>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li>
-                <Link to='/'>Home</Link>
-            </li>
-            <li>
-                <Link to='/formulario'>Registro</Link>
-            </li>
-            <li>
-                <Link to='/login'>Login</Link>
+                <Link to='/'>Cromos</Link>
             </li>
             <li>
                 <Link to='/merch'>Merch</Link>

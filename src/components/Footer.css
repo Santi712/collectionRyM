@@ -2,11 +2,11 @@ footer{
 	display: inline-flex;
   	flex-wrap: nowrap;
 	width: 100%;
-	background-color: rgb(0, 165, 137);
+	background-color: rgb(133, 25, 66);
 	text-align: center;
 }
 footer h2{
-	font-size: 2.3em;
+	font-size: 1.5em;
 }
 footer p{
 	text-emphasis: center;
@@ -15,6 +15,7 @@ footer p{
 footer a{
 	color: black;
     text-decoration: none;
+	font-size: medium;
 }
 footer div{
 	width: 33%;
@@ -26,7 +27,7 @@ footer div ul{
 }
 footer div ul li{
 	margin: 10px;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 footer div input{
 	padding: 2px;
@@ -51,17 +52,17 @@ footer div button{
 }
 
 .color{
-	color: rgba(108, 100, 100, 1);
+	color: rgb(66, 61, 61);
 	display: flex;
   	flex-wrap: wrap;
 	justify-content: space-between;
-	border-top: 1px solid #3f3f3f;
+	border-top: 1px solid #202020;
 	font-size: 1em;
 }
 
 /* ajustes de la zona de copyright y grupo de creación por SANTI */
 .color div{
-    color: #3a3a3a;
+    color: #222222;
     text-align: justify;
     margin: 10px;
     margin-left: 10%;

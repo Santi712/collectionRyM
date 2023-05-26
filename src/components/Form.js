@@ -14,12 +14,12 @@ const Form = () => {
   const onSubmit = (data) => {
     const jsonData = JSON.stringify(data);
     setFormData(jsonData);
-    localStorage.setItem("userData", jsonData); // Agrega esta línea para guardar el JSON en el localStorage
+    localStorage.setItem("userData", jsonData); 
   };
 
   return (
     <div className="form-container">
-      <h2>Formulario</h2>
+      <h2>Registro</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>Nombre</label>
@@ -63,12 +63,31 @@ const Form = () => {
           )}
         </div>
         <div>
+          <label>Contraseña</label>
+          <br></br>
+          <input
+            type="password"
+            {...register("contrasenia", {
+              required: true,
+              minLength: 6
+            })}
+            placeholder="Ingresa tu contraseña"
+          />
+          {errors.contrasenia?.type === "required" && (
+            <p>El campo es requerido</p>
+          )}
+          {errors.contrasenia?.type === "minLength" && (
+            <p>La contraseña debe tener al menos 6 caracteres</p>
+          )}
+        </div>
+        <div>
           <label>Pais</label>
           <br />
           <select {...register("pais")} placeholder="Selecciona tu país">
             <option value="es">España</option>
             <option value="it">Italia</option>
             <option value="fr">Francia</option>
+            <option value="uk">Reino Unido</option>
           </select>
         </div>
         <button type="submit">Submit</button>

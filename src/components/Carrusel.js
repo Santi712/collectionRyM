@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import './Carrusel.css'
+import { Link } from 'react-router-dom'
+
 
 function Carrusel() {
     const [currentButton, setCurrentButton] = useState();
@@ -60,6 +62,13 @@ function Carrusel() {
                     </main>
                     <div className='buttons_groups'>
                        <Buttons /> 
+                    </div>
+                    <div className='options'>
+                        <h1 className='frase'>Pincha y descubre un MULTIVERSO de aventuras</h1>
+                        <div className='pildora'>
+                            <button className='option1'><Link to='/login'>Login</Link></button>
+                            <button className='option2'><Link to='/formulario'>Registro</Link></button>
+                        </div>
                     </div>
                 </div>
             </div>
