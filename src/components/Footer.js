@@ -27,7 +27,7 @@ function Footer() {
                 </ul>
             </div>
             <div className="last">
-                <h2>¡Se el primero en saber de los<br />nuevos cormos!</h2>
+                <h2>¡Se el primero<br />en saber de los<br />nuevos cormos!</h2>
                 <form action="" method="get">
                     <input type="email" placeholder="Email" required id="emailField" />
                     <button id="buttonValidar" type="submit">Suscríbete</button>

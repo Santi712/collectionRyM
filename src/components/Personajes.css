@@ -48,7 +48,7 @@ code {
 }
 .heading {
   position: absolute;
-  top: 0; /* ajusta el valor para cambiar la posición */
+  top: 20px; /* ajusta el valor para cambiar la posición */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
