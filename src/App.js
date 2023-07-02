@@ -3,8 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './Routes/Home';
 import Merch from './Routes/Merch';
 
-import Form from "./Form";
-import LoginForm from "./LoginForm";
+import Form from "./components/Form";
+import LoginForm from "./components/LoginForm";
 
 import Formulario from './Routes/Formulario';
 import Ingreso from './Routes/Ingreso';
